@@ -1,0 +1,14 @@
+# OBS :hammer_and_wrench:
+
+
+
+* **1_** Antes de Rodar o Código você precisa saber onde vai querer alocar os seu Backups.
+* **2_**  Sabendo o Local onde vai Armazenar seus Backups, Copie o caminho e cole na Parte do Comando que esta escrito **(PASTA_A_SEU_CRITERIO)**, caso não saiba achar o caminha e só Cria entrar nela e digitar **pwd** que ira te informar o seu caminho. 
+* **3_**  No meu exemplo coloquei **(/var/PASTA_A_SEU_CRITERIO/backups/Mikrotik/listaipsmkt.txt)** , onde **var** e um Diretório já do Linux ,  **PASTA_A_SEU_CRITERIO** e a sua pasta criada , **backups** e uma pasta que criei para armazenar somente os Backups e a **Mikrotik** que e a pasta onde vai ficar os Backups , lista de IPs dos equipamentos e logs da execução do Código.
+* **4_**  Dentro da Pasta **Mikrotik** vai conter (Listaipsmkt.txt ,Pasta Logs , Pasta rb).
+* **5_**  Listaipsmkt.txt = E a Lista com a extensão **TXT** onde você vai colocar os seus ip. (ATENÇÂO), uma OBS importante os IP devem ser colocado um em baixo do outro  e não pode conter espaço entre ele, essa parte e muito importante caso vá fazer Backups de mais equipamentos.
+* **6_**  Pasta Logs = Dentro da pasta Logs conterá um arquivo **mikrotik.log** **TXT**  com as informações do andamento do seu Backups indicando se algo deu errado ou informando se deu certo.
+* **7_**  Pasta rb = Onde conterá seu backups efetuados.
+* **8_**  OBS: Caso você rode o comando e na pasta **rb** apareça o Backup feito mas sem conteúdo, verifique se a senha colocada no comando esta correta , se a porta SSH esta correta. 
+
+ ##  Coloquei um Exemplo acima de como a Pasta fica :computer_mouse:
